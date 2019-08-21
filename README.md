@@ -13,18 +13,27 @@ to same function again and again.
 
 //sample recursion code...
 
-int function(int n){   //function definition which returns an integer value
+int function(int n)               //function definition which returns an integer value
 
-  if(condition){
-  
-    do this;
-    
-    return ;         //  can return 0 for false values  and 1 for true value  or any integer value
-    
-  }
-  
-  return ;            // return some int value on failing the if condition
-  
+
+{   
+    if(condition)
+
+
+      {
+
+       do this;
+
+        return ;         //  can return 0 for false values  and 1 for true value  or any integer value
+
+     }
+
+
+
+     return ;              // return some int value on failing the if condition
+
+
+
 }
 
 
