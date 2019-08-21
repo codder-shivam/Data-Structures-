@@ -30,5 +30,7 @@ algorihm to study and implement.
 In binary search,we look for an element X in a sorted array by first comparing to the midpoint of 
 array. If X ia less than the midpoint,then we search the left half of the array. If X is greater than the
 midpoint, then we search the right half of the array.
-We than repeat this process, treating the right and left halves as subarrays Again we compare X to the midpoint of this subarray and then search wether it's left or right side. 
-#we repeat this process until we find the X or the subarray has size ZERO.
+We than repeat this process, treating the right and left halves as subarrays Again we compare X to the 
+midpoint of this subarray and then search wether it's left or right side. 
+
+We repeat this process until we find the X or the subarray has size ZERO.
