@@ -1,19 +1,21 @@
 #include<iostream>
 using namespace std;
 
+//userdefined data type i.e. a data type NODE is created 
 typedef struct NODE
 {
   struct NODE* prev;
   int data;
   struct NODE* next;
 }node;
+//global pointers head and tail
 node *head, *tail;
 
-void create(node**, node**, int );
-void display( node* );
-void display_rev( node* );
-int search(node* , int );
-void insert_loc( node** , node** );
+void create(node**, node**, int );        // function to add new nodes in list 
+void display( node* );                    // function to display the list created
+void display_rev( node* );                // function to display in reverse direction using tail pointer
+int search(node* , int );                 // function to search for any input element and to return its location in the list 
+void insert_loc( node** , node** );       // function to insert new node in list at a location given by user
 
 int main()
 {
