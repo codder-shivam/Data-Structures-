@@ -76,7 +76,7 @@ int pop(stack** top)
     temp = (*top)->data;
     stack* node = *top;
     *top = (*top)->next;
-    delete(node);
+    delete(node) ;
     cout<<" \nitem popped :";
     return temp;
 }
